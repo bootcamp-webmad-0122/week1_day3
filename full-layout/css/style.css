@@ -1,0 +1,195 @@
+/* GENERAL STYLING */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2 {
+    font-size: 2.7em;
+    font-weight: 200;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+h3 {
+    margin: 30px 0;
+}
+
+p {
+    font-size: .8em;
+}
+
+section {
+    padding: 100px 0;
+}
+
+/* NAVIGATION */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    width: 100%;
+    background: white;
+}
+
+.menu .logo img {
+    width: 200px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* HERO SECTION */
+.hero {
+    background-image: url('./../img/sea-back.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+}
+
+
+/* SPONSORS SECTION */
+.sponsors {
+    text-align: center;
+}
+
+.sponsors img {
+    padding: 10px 40px;
+}
+
+
+
+/* FEATURES SECTION  */
+.features {
+    text-align: center;
+    background: url('./../img/caja-de-langostino-vivo-en-hielo-huelvamar.jpg') no-repeat center / cover
+}
+
+.features hr {
+    width: 200px;
+    margin: 70px auto;
+}
+
+.features img {
+    width: 120px;
+}
+
+.features article {
+    margin-bottom: 50px;
+}
+
+
+
+/* HOW IT WORKS SECTION */
+
+.works {
+    background: url('./../img/barco-fondo-mar.jpeg') no-repeat left bottom / cover;
+}
+
+
+
+/* BUY NOW SECTON  */
+
+.buy-now {
+    background: #282a2b;
+    color: white;
+    padding: 30px 0
+}
+
+.buy-now h2 {
+    font-size: 2.2em;
+}
+
+
+
+/* FOOTER */
+
+footer  {
+    padding: 100px 0;
+    text-align: center;
+}
+footer img {
+    width: 120px;
+}
+
+
+
+/* COMPONENTS */
+
+.button {
+    border: 1px solid;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 12px 0;
+    display: block;
+    width: 250px;
+    font-size: .9em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.button.white {
+    color: white;
+}
+
+.button.dark {
+    color: black;
+}
+
+.button.centered {
+    margin: 20px auto;
+}
+
+.button.block {
+    width: auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .menu .navicon {
+        display: none;
+    }
+
+    .menu nav {
+        display: block;
+    }
+
+    .sponsors img {
+        padding: 10px;
+    }
+}
